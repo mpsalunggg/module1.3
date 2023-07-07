@@ -72,15 +72,6 @@ table {
   box-shadow: 0px 10px 20px -18px;
 }
 
-input:focus {
-  border-bottom: 2px solid #000000;
-  border-radius: 4px 4px 2px 2px;
-}
-
-input:hover {
-  outline: 1px solid lightgrey;
-}
-
 button {
     min-height: 45px;
 }
@@ -116,6 +107,13 @@ button {
 .duration {
     color: rgb(99, 165, 0);
     margin-top: 5px;
+}
+
+.msg {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem 0;
 }
 
 img {
